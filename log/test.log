@@ -1,0 +1,56 @@
+  [1m[35m (11.7ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/first_test/index" for 127.0.0.1 at 2020-08-08 15:04:08 +0500
+Processing by FirstTestController#index as HTML
+  Rendering first_test/index.html.erb within layouts/application
+  Rendered first_test/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 197)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/shikeb/Code/Projects/ruby/helloworld/helloworld/public/packs-test
+[Webpacker] Hash: 938ecd4dac68dd2bd2ec
+Version: webpack 4.44.1
+Time: 1538ms
+Built at: 08/08/2020 15:04:13
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-31c0a7fd2aa09b742314.js    124 KiB  application  [emitted] [immutable]  application
+js/application-31c0a7fd2aa09b742314.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  384 bytes               [emitted]              
+Entrypoint application = js/application-31c0a7fd2aa09b742314.js js/application-31c0a7fd2aa09b742314.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 5497ms (Views: 5487.4ms | ActiveRecord: 0.0ms | Allocations: 15201)
+Started GET "/assets/application-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css" for 127.0.0.1 at 2020-08-08 15:04:13 +0500
+  [1m[35m (1.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.4ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/first_test/index" for 127.0.0.1 at 2020-08-08 15:18:34 +0500
+Processing by FirstTestController#index as HTML
+  Rendering first_test/index.html.erb within layouts/application
+  Rendered first_test/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 196)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 60ms (Views: 52.2ms | ActiveRecord: 0.0ms | Allocations: 12295)
+Started GET "/assets/application-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css" for 127.0.0.1 at 2020-08-08 15:18:35 +0500
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/first_test/index" for 127.0.0.1 at 2020-08-08 15:20:08 +0500
+Processing by FirstTestController#index as HTML
+  Rendering first_test/index.html.erb within layouts/application
+  Rendered first_test/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 108ms (Views: 95.2ms | ActiveRecord: 0.0ms | Allocations: 12528)
+Started GET "/assets/application-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css" for 127.0.0.1 at 2020-08-08 15:20:08 +0500
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/first_test/index" for 127.0.0.1 at 2020-08-08 15:20:56 +0500
+Processing by FirstTestController#index as HTML
+  Rendering first_test/index.html.erb within layouts/application
+  Rendered first_test/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 196)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 49.5ms | ActiveRecord: 0.0ms | Allocations: 12619)
+Started GET "/assets/application-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css" for 127.0.0.1 at 2020-08-08 15:20:56 +0500
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
